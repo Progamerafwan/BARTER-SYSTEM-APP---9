@@ -1,0 +1,31 @@
+import React {Component} from 'react';
+import {StyleSheet,view,Text,TouchableOpacity,} from 'react-native';
+import {DrawerItems} from 'react-navigation-drawer '
+
+import firebase from 'firebase';
+
+export default class class CustomSideBarMenu extends Component{
+    render (){ 
+        return( 
+            <View style=styles.conatiner}>
+            <View style= {styles.drawerItemsContainer}>
+                <DrawerItem{...this.props}/>
+              </View>
+             </View> 
+        )
+    }
+}    
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
